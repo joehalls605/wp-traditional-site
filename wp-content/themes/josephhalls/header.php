@@ -5,13 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
     <?php wp_head(); ?>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 <body <?php body_class(); ?>>
-    <header class="site-header">
-        <div class="container">
-            <h1 class="site-title">Joseph Halls</h1>
-            <nav class="site-navigation">
-                <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
-            </nav>
-        </div>
-    </header>
+<header class="site-header">
+    <div class="container">
+        <h1 class="site-title">Joseph Halls</h1>
+        <nav class="site-navigation">
+            <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+        </nav>
+    </div>
+</header>
