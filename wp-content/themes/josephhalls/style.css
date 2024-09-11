@@ -15,6 +15,10 @@ p {
     color: #f8f8f8;
 }
 
+#headerTitle{
+    cursor: pointer;
+}
+
 .about-section h2 {
     font-size: 40px;
 }

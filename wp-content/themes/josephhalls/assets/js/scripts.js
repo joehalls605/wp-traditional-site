@@ -2,15 +2,25 @@ console.log("script loaded!");
 
 document.addEventListener('DOMContentLoaded', () => {
     // My Work button scroll
-    const myWorkButton = document.querySelector('.about-buttons button:first-child');
+    const myWorkButton = document.getElementById("myWorkButton");
     myWorkButton.addEventListener('click', () => {
         document.getElementById('product-highlights').scrollIntoView({ behavior: 'smooth' });
     });
 
     // About button scroll
-    const aboutButton = document.querySelector('.about-buttons button:nth-child(2)');
+    const aboutButton = document.getElementById("aboutButton");
     aboutButton.addEventListener('click', () => {
         document.getElementById('certifications').scrollIntoView({ behavior: 'smooth' });
+    });
+
+    const headerTitle = document.getElementById("headerTitle");
+    headerTitle.addEventListener("click", (event) => {
+        console.log("im clicked");
+        event.preventDefault();
+        window.scrollTo({
+            top:0,
+            behavior:"smooth"
+        })
     });
 
     // // Image Swapping

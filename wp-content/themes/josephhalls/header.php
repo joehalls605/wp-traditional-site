@@ -13,7 +13,9 @@
 <body <?php body_class(); ?>>
 <header class="site-header">
     <div class="container">
+    <div id="headerTitle">
         <h1 class="site-title">Joseph Halls</h1>
+    </div>
         <nav class="site-navigation">
             <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
         </nav>
