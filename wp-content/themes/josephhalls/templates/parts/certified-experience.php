@@ -1,6 +1,8 @@
+<section id="certifications" class="certified-experience">
 <div class="certified-experience">
     <h2>Certified Experience</h2>
     <div class="experience-grid">
+    <p>I'm always learning new technologies to build better and more efficient software. My goal is to keep improving and stay up-to-date in the fast-changing tech world.</p>
         <div class="experience-item">
             <h3>BSC, Computing and IT in Software</h3>
             <p>Completing a Bachelor’s degree in Computing and IT, specialising in Software Development for advanced proficiency in the field.</p>
@@ -18,3 +20,4 @@
         </div>
     </div>
 </div>
+</section>

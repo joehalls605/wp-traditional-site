@@ -1,3 +1,4 @@
+<section id="product-highlights" class="product-highlights">
 <div class="product-highlights">
     <h2>Project Highlights</h2>
     <div class="highlights-grid">
@@ -18,3 +19,4 @@
         </div>
     </div>
 </div>
+</section>

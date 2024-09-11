@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #191919;
     margin: 0;
@@ -14,6 +18,34 @@ p {
 .about-section h2 {
     font-size: 40px;
 }
+
+.about-tech-stack {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.about-tech-stack ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    width: 100%; 
+}
+
+.about-tech-stack ul li {
+    
+    margin: 0; 
+}
+
+.about-tech-stack img {
+    width: 50px;
+}
+
+
+
 
 h1, h2, h3 {
     color: #f8f8f8;
@@ -178,6 +210,40 @@ h3 {
     align-items: center;
 }
 
+@media (max-width: 768px) {
+    .cta-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cta-left, .cta-right {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cta-left {
+        margin-bottom: 20px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .about-right {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .site-navigation ul {
+        flex-direction: column;
+    }
+
+    .highlight, .experience-item {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+}
+
 .about-right img {
     max-width: 50%;
     height: auto;
@@ -213,7 +279,7 @@ h3 {
 }
 
 .cta-section h2 {
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .cta-button {
@@ -221,12 +287,10 @@ h3 {
     color: white;
     border: 0;
     padding: 8px 30px;
-    margin-right: 14px;
-    margin-top: 15px;
     border-radius: 5px;
     font-size: 16px;
     text-align: center;
-    height: 40px;
+    height: 38px;
     display: inline-block;
     line-height: 40px;
     text-decoration: none;
@@ -239,6 +303,18 @@ h3 {
 .cta-button a {
     color: white;
     text-decoration: none;
+}
+
+.cta-links {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.cta-image img {
+    width: 53px;
+    height: 54px;
+    margin-right: 20px;
 }
 
 .cta-left {
@@ -268,7 +344,7 @@ h3 {
 }
 
 .social-links img {
-    width: 80px;
+    width: 150px;
     height: auto;
     display: block;
 }
@@ -278,7 +354,7 @@ h3 {
         flex-direction: column;
         text-align: center;
     }
-    
+
     .cta-left, .cta-right {
         justify-content: center;
         align-items: center;
@@ -352,4 +428,14 @@ h3 {
     margin-top: 10px;
     max-width: 20%;
     height: auto;
+}
+
+
+#dynamicImage {
+    transition: opacity 0.5s ease-in-out; 
+    opacity: 1;
+}
+
+#dynamicImage.fade-out {
+    opacity: 0;
 }
