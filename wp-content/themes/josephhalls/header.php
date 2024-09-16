@@ -14,7 +14,9 @@
 <header class="site-header">
     <div class="container">
     <div id="headerTitle">
+        <a href="<?php echo home_url();?>">
         <h1 class="site-title">Joseph Halls</h1>
+        </a>
     </div>
         <nav class="site-navigation">
             <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>

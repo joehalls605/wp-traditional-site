@@ -1,7 +1,7 @@
 <section id="certifications">
     <div class="certified-experience">
         <h2>Solving problems and creating intuitive software solutions.</h2>
-        <p>I'm always learning new technologies to build better and more efficient software. My goal is to keep improving and stay up-to-date in the fast-changing tech world.</p>
+        <p>I enjoy solving complex problems and building intuitive software solutions that make a real impact. <br>With a focus on user-friendly design and efficient development, I'm always exploring new technologies to stay ahead in the ever-evolving tech landscape. My passion is creating seamless digital experiences that meet the needs of both users and businesses.</p>
         
         <div class="experience-row">
             <h3>Certified experience</h3>

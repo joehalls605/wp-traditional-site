@@ -151,7 +151,7 @@ h3 {
     align-items: center;
     justify-content: center;
     margin-top: 100px;
-    padding: 20px 0px 50px 20px;
+    padding: 20px 0px 30px 20px;
     color: #ffffff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 34, 34, 0.3);
@@ -202,11 +202,20 @@ h3 {
     text-decoration: underline;
 }
 
+#certifications {
+    padding: 20px; /* Adjust as needed */
+    margin-top: 20px; /* Adjust as needed */
+}
+
 .certified-experience {
     background-color: #191919;
     margin-top: 150px;
     margin-bottom: 200px;
 
+}
+
+.certified-experience p{
+ width: 90%;
 }
 
 .experience-row{
@@ -309,12 +318,13 @@ h3 {
     background-color: #004f55;
     transform: translateY(-3px);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
 }
 
 .cta-section {
     background-color: #232323;
     padding: 40px;
-    margin-top: 150px;
+    margin-top: 20px;
     margin-bottom: 100px;
     border-radius: 8px;
     color: white;
@@ -497,4 +507,72 @@ h3 {
 
 #dynamicImage.fade-out {
     opacity: 0;
+}
+
+/* Container styles */
+#wpforms-21-field_1-container,
+#wpforms-21-field_2-container,
+#wpforms-21-field_3-container {
+    margin: 10px;
+    padding: 20px;
+    color: #ffffff !important;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Label styles */
+#wpforms-21-field_1-container label,
+#wpforms-21-field_2-container label,
+#wpforms-21-field_3-container label {
+    color: #ffffff !important; 
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+/* Input and textarea styles when focused */
+#wpforms-21-field_1-container input:focus,
+#wpforms-21-field_2-container input:focus,
+#wpforms-21-field_3-container input:focus,
+#wpforms-21-field_1-container textarea:focus,
+#wpforms-21-field_2-container textarea:focus,
+#wpforms-21-field_3-container textarea:focus,
+#wpforms-21-field_1-container select:focus,
+#wpforms-21-field_2-container select:focus,
+#wpforms-21-field_3-container select:focus {
+    outline: none; 
+}
+
+/* Input, textarea, and select styles */
+#wpforms-21-field_1-container input,
+#wpforms-21-field_2-container input,
+#wpforms-21-field_3-container input,
+#wpforms-21-field_1-container textarea,
+#wpforms-21-field_2-container textarea,
+#wpforms-21-field_3-container textarea,
+#wpforms-21-field_1-container select,
+#wpforms-21-field_2-container select,
+#wpforms-21-field_3-container select {
+    color: #ffffff !important; 
+}
+
+/* Label field styles */
+.wpforms-field-label {
+    color: #ffffff !important; 
+}
+
+/* Submit button styles */
+#wpforms-submit-21 {
+    background-color: #308d93;
+    margin-left: 30px;
+}
+
+#wpforms-submit-21:hover {
+    background-color: #004f55 !important;
+}
+
+/* Heading styles */
+.wp-block-heading {
+    margin-left: 30px;
+}
+
+.wpforms-field-label span.required {
+    color: #308d93 !important; 
 }

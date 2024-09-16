@@ -15,8 +15,9 @@
             </ul>
             </div>
             <div class="about-buttons">
-                <button id="myWorkButton">My Work →</button>
+                <!-- <button id="myWorkButton">My Work →</button> -->
                 <button id="aboutButton">About →</button>
+                <button id="ctaButton">Contact →</button>
             </div>
         </div>
         <div class="about-right">
