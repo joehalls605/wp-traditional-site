@@ -152,7 +152,7 @@ h3 {
     align-items: center;
     justify-content: center;
     margin-top: 100px;
-    padding: 20px 0px 30px 20px;
+    padding: 20px 0px 40px 20px;
     color: #ffffff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 34, 34, 0.3);
@@ -204,8 +204,7 @@ h3 {
 }
 
 #certifications {
-    padding: 20px; /* Adjust as needed */
-    margin-top: 20px; /* Adjust as needed */
+    padding: 20px; 
 }
 
 .certified-experience {
@@ -339,11 +338,12 @@ h3 {
 }
 
 .cta-section h2 {
-    margin-bottom: 0;
+    margin-bottom: 10px;
 }
 
 .cta-button {
     background-color: #308d93;
+    margin-top: 10px;
     color: white;
     font-weight: 600; 
     text-decoration: none;
@@ -385,7 +385,7 @@ h3 {
 }
 
 .cta-left {
-    flex: 3;
+    flex: 2;
     display: flex;
     flex-direction: column;
     justify-content: center;
