@@ -1,9 +1,31 @@
-<?php get_header(); ?> <!-- Includes the header.php file, which contains the site's header section. -->
+<?php get_header(); ?>
+
 <main class="main-content">
-    <?php get_template_part( 'templates/home' );?>
-    <?php get_template_part( 'templates/parts/product-highlights' ); ?>
-    <?php get_template_part( 'templates/parts/certified-experience' ); ?>
-    <?php get_template_part( 'templates/parts/cta-section' ); ?>
+
+    <?php
+    // Check if this is the front page and a static homepage is set
+    if ( is_front_page() && is_page() ) {
+        // Display the Gutenberg content
+        while ( have_posts() ) : the_post(); 
+            the_content(); 
+        endwhile;
+        
+    
+        get_template_part( 'templates/home' );
+        
+        get_template_part( 'templates/parts/product-highlights' );
+        get_template_part( 'templates/parts/certified-experience' );
+        get_template_part( 'templates/parts/cta-section' );
+        
+    } else {
+        // Default for other pages or non-static front page
+        get_template_part( 'templates/home' );
+        get_template_part( 'templates/parts/product-highlights' );
+        get_template_part( 'templates/parts/certified-experience' );
+        get_template_part( 'templates/parts/cta-section' );
+    }
+    ?>
+
 </main>
+
 <?php get_footer(); ?>
-<!-- Includes the footer.php file, which contains the site's footer section. -->

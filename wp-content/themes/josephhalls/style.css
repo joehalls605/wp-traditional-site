@@ -78,6 +78,7 @@ h3 {
 .main-content {
     margin: 0 auto;
     max-width: 1200px;
+    padding-top: 0px;
 }
 
 .site-header {
@@ -518,6 +519,29 @@ h3 {
     color: #ffffff !important;
     font-family: 'Open Sans', sans-serif;
 }
+
+/* Reset margins for contact page */
+.page-template-templates-contact,
+.page-template-templatescontact-php {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* Ensure consistent main content styling */
+.page-template-templates-contact .main-content,
+.page-template-templatescontact-php .main-content {
+    margin-top: 0;
+    padding-top: 40px; /* Adjust this value to match your homepage */
+}
+
+/* Align h2 consistently across pages */
+.page-template-templates-contact h2,
+.page-template-templatescontact-php h2,
+.about-section h2 {
+    margin-top: 0;
+    padding-top: 20px; /* Adjust as needed */
+}
+
 
 /* Label styles */
 #wpforms-21-field_1-container label,
