@@ -33,7 +33,7 @@ a {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 35px;
 }
 
 .about-tech-stack ul {
@@ -221,6 +221,11 @@ h3 {
 .experience-row{
     margin-top: 40px;
 }
+
+.experience-row-header{
+    margin-top: 6px;
+}
+
 
 #item-one, #item-two, #item-three {
     transition: transform 0.3s ease, box-shadow 0.3s ease; 

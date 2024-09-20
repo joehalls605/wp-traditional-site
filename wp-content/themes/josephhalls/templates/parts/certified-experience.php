@@ -1,11 +1,11 @@
 <section id="certifications">
     <div class="certified-experience">
-        <h2>I solve problems and create software solutions</h2>
+        <h2>I solve problems and deliver solutions</h2>
         <p> 
-        I focus on creating seamless digital experiences that align with both user needs and business objectives. I enjoy tackling complex challenges and building intuitive software solutions that deliver real impact.</p>
+        focused on creating seamless digital experiences that align with both user needs and business objectives. I enjoy tackling complex challenges and building intuitive software solutions that deliver real impact.</p>
         
         <div class="experience-row">
-            <h3>Certified experience</h3>
+            <h3 class="experience-row-header">Certified experience</h3>
             <p>Certifications to stay ahead in the ever-evolving tech landscape.</p>
             <div class="experience-grid">
                 <!-- Item One -->

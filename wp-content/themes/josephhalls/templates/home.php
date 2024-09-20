@@ -2,7 +2,7 @@
     <div class="about-content">
         <div class="about-left">
             <h2>Web Developer</h2>
-            <p>Delivering practical, user-friendly products. I've worked on software that's helped over 500,000 users. Based in Suffolk, United Kingdom.</p>
+            <p>Delivering practical, user-friendly products that solve real-world challenges. Based in Suffolk, United Kingdom.</p>
             <!-- Social links removed but can be re-added if necessary -->
             <div class="about-tech-stack">
             <ul>
