@@ -22,7 +22,7 @@
                 <a href="https://www.bcs.org/" target="blank">
                 <div class="experience-item" id="item-two">
                     <h3>BCS, The Chartered Institute for IT</h3>
-                    <p>Awarded Programming Context & Methodologies certifications from the British Computing Society.</p>
+                    <p>Awarded Programming Context & Methodologies certification from the British Computing Society.</p>
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/bcs.png" alt="BCS Logo">
                 </div>
                 </a>
